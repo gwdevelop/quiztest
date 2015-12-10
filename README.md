@@ -6,4 +6,5 @@ Testing site for the quiz game we are making.
 
 #### Frameworks/Libraries/APIs used right now:
 - AngularJS
-- Bootstrap
+- ~~Bootstrap~~
+- Angular Material
