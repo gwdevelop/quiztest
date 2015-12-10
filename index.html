@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html ng-app="quizApp">
+<html ng-app="QuizApp">
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<title>Quiz Game!</title>
+  <meta charset="UTF-8"/>
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0-rc5/angular-material.min.css">
+  <title>Quiz Test!</title>
 </head>
-<body ng-controller="GameCtrl">
-	<button class="btn-large btn-danger">Danger button!</button>
-	<span>{{ ::welcomemsg }}</span>
+<body ng-cloak>
+  <!-- Quiz area -->
+  <h1>{{ ::welcomemsg }}</h1>
 
-  <!-- The scripts area -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script>
-	<script src="js/app.js"></script>
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0-rc7/angular-material.min.js"></script>
+  
+  <!-- My scripts -->
+  <script src="js/app.js"></script>
+  
 </body>
-
 </html>
