@@ -22,3 +22,23 @@ Para hacer un shuffle en las respuestas (el JSON) se podría utilizar [Lodash](h
 
 ### Timer
 - [Angular timer](http://siddii.github.io/angular-timer/)
+
+### Angular card example (Holaaa sustituir por preguntas?)
+```
+<div ng-controller="AppCtrl" ng-cloak="" class="carddemoBasicUsage" ng-app="MyApp">
+  <md-content class="md-padding" layout="row" layout-wrap="" layout-align="center start">
+    <div flex="50" layout="column">
+      <md-card>
+        <md-card-title>
+          <md-card-title-text layout-align="end center">
+            <span class="md-headline">Card with image</span>
+            <span class="md-subhead">Large</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content layout="row" layout-align="space-between">
+          <div class="md-media-xl card-media"></div>
+          <span>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!</span>
+        </md-card-content>
+      </md-card>
+    </div>
+ ```
